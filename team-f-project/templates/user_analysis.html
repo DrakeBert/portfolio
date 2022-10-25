@@ -1,0 +1,59 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+
+<style>
+    .jumbotron{
+        margin-top: 5%;
+        border: solid;
+        border-radius: 12px;
+        border-color: rgba(230, 234, 238, 0.55);
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+        margin-bottom: 100px;
+    }
+    .btn-lg{
+        margin-bottom: 3%;
+        margin-top: 1%;
+        border: solid;
+        border-color: #007bff;
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+    }
+    #welcome{
+      font-size: 48px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    h2{
+      margin-bottom: 20px;
+    }
+</style>
+<div class="jumbotron">
+    <h1 id="welcome">User Analysis</h1>
+    <h2>Jason Morma</h2>
+    <p>Jason is a scholarly genius born and raised in the small town of Leuven, Belgium. He has a PhD in Mathematics from Stanford University, an honorary PhD in Biomechanics awarded from the University of Chester, as well as Astrophysics awarded to him from the University of Cambridge for his contributions to several large medical breakthroughs, space exploration contributions to NASA, and financial contributions.
+      However, Jason's interests lie mostly in critiquing and funding movies. Because of this, he was immediately interested in Movie Genie and what this project aims to do. Additionally, since self fulfillment is one of his main goals in life, he has
+    developed a liking to providing assistance through advice and critical feedback to those he's helping. Having stumbled upon our website, he aims to give us the most useful feedback he possibly can to ensure success for Movie Genie.
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="jason" role="button">Meet Jason</a></p>
+    <br/>
+    <h2>Selena Kyle</h2>
+      <p>Selena, age 24, is a chemical engineer by day, and a movie lover by night. She has always had a passion for innovating and striving to push the bounds of what is possible.
+       </p>
+       <p><a class="btn btn-primary btn-lg" href="selena" role="button">Meet Selena</a></p>
+       <br/>
+    <h2>Brock Joseph</h2>
+    <p>Brock, age 32, went to the University of California, Los Angeles for an education in Theatre and Film. Priding himself in his acting and movie knowledge, he currently
+      is an aspiring director who keeps up with the industry every day
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="dylan" role="button">Meet Brock</a></p>
+    <br/>
+    <h2>Joel</h2>
+    <p>Joel, age 24, is a construction worker for his fathers company he took over after his dad's retirement. His dad specialized in fixing roofs and Joel has since
+        expanded the company to smaller housing projects. </p>
+    <p><a class="btn btn-primary btn-lg" href="joel" role="button">Meet Joel</a></p>
+  </div>
+
+{% endblock %}

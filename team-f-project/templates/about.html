@@ -1,0 +1,57 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+
+<style>
+    .jumbotron{
+        margin-top: 5%;
+        border: solid;
+        border-radius: 12px;
+        border-color: rgba(230, 234, 238, 0.55);
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+        margin-bottom: 100px;
+    }
+    .btn-lg{
+        margin-top: 4%;
+        border: solid;
+        border-color: #007bff;
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+    }
+    #welcome{
+      font-size: 48px;
+      margin-bottom: 50px;
+    }
+    h2{
+      margin-bottom: 20px;
+    }
+</style>
+<div class="jumbotron">
+    <h1 id="welcome">Hello, welcome to Movie Genie!</h1>
+    <h2>Vison Statement</h2>
+    <p>For movie lovers and film advocates who love all aspects of film and desire to find out information about these films.
+      The Movie Genie is a movie information/recommendation app that will grab information of your favorite movies in an easy-to-read format.
+      Unlike other movie recommendation apps that make it hard to read easy information, our product will make the interaction intuitive enough to where
+      you get the information you need with no inconvenience.
+    </p>
+    <br/>
+    <h2>Description of Movie Genie</h2>
+      <p>Have you ever wanted to search for information about a movie, but then get overwhelemed with information regarding ratings and actor drama that you may not be interested in?
+        Our plan is to create a movie lovers app that gives information regarding the plot, cast, and other information that the user may want. We will be using a giant database of movies,
+        old and new, so that our users can expand their tastes. We plan on using movies from the past and including the description and date it was filmed so that our users can search information
+        about how film has evolved over time. Our product will also allow users to search upcoming movies that have yet to come out.
+       </p>
+       <p>Our main goal with this product is to ease the user of any unwanted information that can come with searching for a movie on a search engine. We want the Movie Genie experience
+       to be as seamless as possible by allowing you to just get the facts when you want them. Our user interface is planned to be simple and easy to use. We want you to be able to use
+       Movie Genie as an option for when it comes to search your for your upcoming watchlist on movies.</p>
+       <br/>
+    <h2>Users & Benefits </h2>
+    <p>Our primary target audiences are both movie advocates who enjoy various aspects of film and casual movie enjoyers. We plan on devoloping a system that is
+    consistent for the user such that all searchable aspects of a movie can be utilized in our application as one central hub for the user. Our system is planning on being open-source where a
+    repository will be available for various developers to contribute to their own versions of the product.</p>
+    <p><a class="btn btn-primary btn-lg" href="team" role="button">Meet The Team</a></p>
+  </div>
+
+{% endblock %}

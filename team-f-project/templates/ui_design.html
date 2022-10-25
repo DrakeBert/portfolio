@@ -1,0 +1,64 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<style>
+    .jumbotron{
+        margin-top: 5%;
+        border: solid;
+        border-radius: 12px;
+        border-color: rgba(230, 234, 238, 0.55);
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+        margin-bottom: 100px;
+    }
+    .btn-lg{
+        margin-bottom: 3%;
+        margin-top: 1%;
+        border: solid;
+        border-color: #007bff;
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+    }
+    #welcome{
+      font-size: 48px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    h2{
+      margin-bottom: 20px;
+    }
+</style>
+<div class="jumbotron">
+  <h1 id="welcome">UI Design</h1>
+  <br/>
+  <h2>User Flow Diagram</h2>
+  <br/>
+  <div class="col-md-3 col-sm-6">
+      <div class="box15">
+          <img src="{% static 'img/user_flow.png' %}" alt="user" />
+      </div>
+      <br/>
+      <h2>Watchlist Page</h2>
+      <br/>
+      <div class="box15">
+          <img src="{% static 'img/watchlist_page.png' %}" alt="user" />
+      </div>
+      <br/>
+      <h2>Profile Page</h2>
+      <div class="box15">
+          <img src="{% static 'img/profile_page.png' %}" alt="user" />
+      </div>
+      <br/>
+      <h2>Movie Info</h2>
+      <div class="box15">
+          <img src="{% static 'img/movie_info.png' %}" alt="user" />
+      </div>
+
+  </div>
+  <br/>
+</div>
+
+{% endblock %}

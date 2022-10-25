@@ -1,0 +1,76 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+
+<style>
+    .jumbotron{
+        margin-top: 5%;
+        border: solid;
+        border-radius: 12px;
+        border-color: rgba(230, 234, 238, 0.55);
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+        margin-bottom: 100px;
+    }
+    .btn-lg{
+        margin-top: 4%;
+        border: solid;
+        border-color: #007bff;
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+    }
+    #welcome{
+      font-size: 48px;
+      margin-bottom: 50px;
+    }
+    h2{
+      margin-bottom: 20px;
+    }
+</style>
+<div class="jumbotron">
+    <h1 id="welcome">Hello, meet Selena!</h1>
+    <h2>Biography</h2>
+    <p>Selena, age 24, is a chemical engineer by day, and a movie lover by night. She has always had a passion for innovating and striving to push the bounds of what is possible. 
+      Selena was born and raised in Houston, Texas where she eventually left to attend Harvard. Her parents came from humble backgrounds. Her father, Scott, is an electrician.
+      Her mother, Pam, is a receptionist in a dentist's office. 
+      <br/>
+      <br/>
+      Selena's engineering experience has taught her how to write scripts for simulations, utilize programs such as MatLab and Excel, and become a tech savvy super user. After a 
+      long day of work, Selena doesn't want to search for thirty minutes to find the perfect Sci-Fi movie. She believes Movie Genie will be perfect for picking the right movie right away 
+      so she can spend less time searching and more time watching.  
+    </p>
+    <br/>
+    <h2>Scenario 1</h2>
+    <p>Selena works hard all day, and doesn't like to waste time searching for something to watch. She dreads opening Netflix and clicking for what seems like an eternity before she 
+      finds a new movie that meets her criteria. Other apps like IMDb and Rotten Tomatos have loads of movie data but fail to recommend curated results. 
+      <br/>
+      <br/>
+      Movie Genie to the rescue! She can now 
+      pick what mood she is in, pick a genre, or even select an actor and let Movie Genie do the rest! As Selena uses Movie Genie, the recommendations will continuously improve with 
+      time as her ever-changing profile paints a better picture of what she enjoys. 
+    </p>
+    <br/>
+    <h2>Scenario 2</h2>
+      <p>As an engineer, Selena is a huge fan of elegant, simple designs. Often times, apps over complicate the UI and make the user experience a pain. She is looking for an app that displays only the 
+        necessary content in an efficient manner...the fewer clicks, the better. After analyzing data and making calculations all day, Selena doesn't want to use her brain any more than she has to.
+        <br/>
+        <br/>
+        Movie Genie can grant that wish! Selena no longer has to waste time or energy navigating a clumsy UI. Movie Genie is sleek and efficeint, only showing you what you need, when you need it! 
+       </p>
+    <br/>
+    <h2>Story One</h2>
+    <p>As an engineer, I want one-click suggestions so that I don't have to waste more energy after solving complex problems all day.</p>
+    <br/>
+    <h2>Story Two</h2>
+    <p>As a Sci-Fi movie buff, I need peer-rating filters so that I don't have to waste time browsing through cheesy, low-budget movies.</p>
+    <br/>
+    <h2>Features</h2>
+    <p>1) One-click Suggestions to save time.</p><br/>
+    <p>2) Peer-rating system to filter out bad movies.</p><br/>
+    <p>3) "Save for Later" button when I find more than one good suggestion.</p><br/>
+    <p>4) "More like This" button that generates movies similar to a movie you enjoyed.</p>
+    <p><a class="btn btn-primary btn-lg" href="user_analysis" role="button">Meet The Others</a></p>
+  </div>
+
+{% endblock %}

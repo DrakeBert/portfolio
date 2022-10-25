@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block content %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+<script src="{% static 'js/scripts' %}"></script>
+<link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+
+
+{% endblock %}

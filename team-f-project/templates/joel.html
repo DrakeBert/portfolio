@@ -1,0 +1,72 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+
+<style>
+    .jumbotron{
+        margin-top: 5%;
+        border: solid;
+        border-radius: 12px;
+        border-color: rgba(230, 234, 238, 0.55);
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+        margin-bottom: 100px;
+    }
+    .btn-lg{
+        margin-top: 4%;
+        border: solid;
+        border-color: #007bff;
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+    }
+    #welcome{
+      font-size: 48px;
+      margin-bottom: 50px;
+    }
+    h2{
+      margin-bottom: 20px;
+    }
+</style>
+<div class="jumbotron">
+    <h1 id="welcome">Hello, meet Joel!</h1>
+    <h2>Persona</h2>
+    <p>Joel, age 24, is a construction worker for his fathers company he took over after his dad's retirement. His dad specialized in fixing roofs and Joel has since 
+        expanded the company to smaller housing projects. His mother is a retired secretary from his business so she also helps out every now and then with small tasks
+        that need to be completed while Joel is on-site. Now that he has begun to expand the company, he has created many more options for his customers to interact
+        with the company online. He has some decent knowledge of internet usage and how to work his way around the internet.
+    </p>
+    <br/>
+    <h2>Scenario 1</h2>
+      <p>On an average weekday, Joel likes to spend his afternoons watching a movie that he's never seen before. He has seen many already, but he just can't decide on a 
+      movie to watch after a long day at work. He continues to browse his streaming service until he is tired of looking through uninteresting looking movies.
+       </p>
+       <p>He loads up Movie Genie and selects the category he feels like watching. He is also to select the streaming service that he is watching to narrow down unwanted
+       films that he has no access to. Because he has seen so many movies he can access his personal list and deselect the ones he does not wish to appear. His movie 
+       selection screen chooses a set of movies to choose from and he is able to decide which of the three looks the most appealing.
+       </p>
+       <br/>
+    <h2>Story 1 </h2>
+    <p>As a frequent movie watcher, I want to select the category of movie recommended so that I can have a semi-personalized decision of movies.</p>
+    <h2>Scenario 2</h2>
+      <p>While on a site for a client he learned that this client also enjoys watching movies and they began to chat. They discuss different movies they have watched and
+      some that one or the other has not watched yet. The client brings up his IMDB page to bring up some of his reviews, but he says that he is not really sure what his
+      next movie to watch will be.
+       </p>
+       <p>Joel brings up Movie Genie and all the features it has. He shows the client how he can create an account and add him as a friend to see what movies he has seen.
+       They can also each choose a category from their own device and have the same movies appear for both of them so that they can decide to watch and discuss the movie
+       they watched.
+       </p>
+       <br/>
+    <h2>Story 2 </h2>
+    <p>As a movie discusser, I want to choose with friends which movies we can watch from our similar interests.</p>
+        <br/>
+    <h2>Features </h2>
+    <p>Selection of streaming service(s) to list movies exclusively on these platforms.</p>
+    <p>Ability to select movies already watched so the movies do not show up on recommendations.</p>
+    <p>View other accounts to see which movies they have seen.</p>
+    <p>Have a Queue where two parties can put in two categories and have results for a mix of the two.</p>
+    <p><a class="btn btn-primary btn-lg" href="user_analysis" role="button">Meet The Others</a></p>
+  </div>
+
+{% endblock %}

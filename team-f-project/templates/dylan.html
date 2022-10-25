@@ -1,0 +1,75 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+
+<style>
+    .jumbotron{
+        margin-top: 5%;
+        border: solid;
+        border-radius: 12px;
+        border-color: rgba(230, 234, 238, 0.55);
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+        margin-bottom: 100px;
+    }
+    .btn-lg{
+        margin-top: 4%;
+        border: solid;
+        border-color: #007bff;
+        border-width: 0.2em;
+        box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.25);
+    }
+    #welcome{
+      font-size: 48px;
+      margin-bottom: 50px;
+    }
+    h2{
+      margin-bottom: 20px;
+    }
+</style>
+<div class="jumbotron">
+    <h1 id="welcome">Hello, meet Brock!</h1>
+    <h2>Biography</h2>
+    <p>Brock Joseph is an extremly arstistic minded individual. Having graduated from the University of California, Los Angeles, he is used to being
+      exposed to multiple opionons on vast topics regarding film. Studying Theatre in his undergraduate, Brock developed an appreciation behind
+      the artwork that is movies, inspiring him to further his education with a Masters of Arts in Film, also from UCLA. Residing in the capital of movie-making,
+      Los Angeles, Brock has continued to strive for his vision in the industry which is the sole reason in his motivation to be on top of the knowledge and information
+      of all new movies and shows coming out.
+    </p>
+    <br/>
+    <h2>Scenario 1</h2>
+      <p>Being on set with multiple personalities is not always easy, especially as a director. Brocks ideal situation for analyzing his future crews would be to
+        keep an eye on what types of films they enjoy watching, as well as how they rate them. To do this, he would need to ask every single individual on his crew, have a
+        conversation with them to ask them their interests, and then have to look at another third-party application to view the film or show details.</p>
+        <p>
+        With Movie Genie, this eliminates the need for all these steps. As an admin user, Brock would want to be able to view all of his crew members on set, which are regular
+        users of the Movie Genie application, and see what they were watching and if these movies were added to their future watchlists. This would allow Brock to just notify
+        his employees of the app and he would be able to analyze all of his set members and their interests.
+       </p>
+       <br/>
+    <h2>Scenario 2</h2>
+    <p>After a long day at work, talking about movies, the last thing Brock wants to do sometimes is have to actually THINK about what he wants to watch. Brock is an
+    individual in which, sometimes, random factors enhance experiences leading to an unexpected outcome, like watching a movie you have never heard of and actually liking it.</p>
+    <p>Movie Genie provides a solution. Implenting a random feature, users will be able to select for a random movie, either with a filter or without. This allows Brock to get off of
+    work without having to worry about what entertainment he will watch while eating his long-awaited dinner after a long day on the set. </p>
+    <br/>
+    <h2>Story One</h2>
+    <p>As a director, I would like to see the interests and common films that my crew enjoys, so I can better adapt my way at implementing them into the set.</p>
+    <br/>
+    <h2>Story Two</h2>
+    <p>After being exhausted after work, I do not want to think about what I want to put on for entertainment, I just want to put something on. However, maybe sometimes
+    I would like to filter these random searches to narrow down certain things that I know I would not like.</p>
+    <br/>
+    <h2>Features</h2>
+    <p>1) As an admin user, view other users' watchlists and what they currently like.</p>
+    <br/>
+    <p>2) As an admin user, keep track(search) of the individuals that will allow you to do so.</p>
+    <br/>
+    <p>3) The ability to randomly select a movie, sometimes with a filter.</p>
+    <br/>
+    <p>4) The ability to keep a watchlist with movies that you have or have not watched.</p>
+    <p><a class="btn btn-primary btn-lg" href="user_analysis" role="button">Meet The Others</a></p>
+  </div>
+
+{% endblock %}
